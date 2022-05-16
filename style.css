@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./imagenes/samurai.png);
+  background-size: cover;
+  background-position: center center;
+  font-family: "Macondo", cursive;
+  min-height: 100vh;
+}
+
+.form {
+  background-color: floralwhite;
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 50px;
+  position: fixed;
+  left: 1350px;
+  top: 315px;
+  border-radius: 15px;
+  box-shadow: 0 15px 100px rgb(240, 8, 8);
+  text-align: center;
+}
+
+.form_titulo {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.form_parrafo {
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.form_link {
+  font-weight: 400;
+  color: black;
+}
+
+.form_contenido {
+  margin-top: 15px;
+}
+
+.form_input {
+  width: 100%;
+  background: none;
+  color: #000000;
+  font-size: 20px;
+  padding: 5px 5px;
+  border: none;
+  border-bottom: 1px solid;
+  font-family: "Macondo", cursive;
+  text-align: center;
+}
+
+.form_label {
+  color: grey;
+  cursor: pointer;
+}
+
+.form_submit {
+  font-family: "Macondo", cursive;
+  background: rgb(77, 67, 67);
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 10px;
+}
