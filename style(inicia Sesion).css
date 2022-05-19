@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./imagenes/memi1596f0e51.png);
+  background-size: cover;
+  background-position: center center;
+  font-family: "Macondo", cursive;
+  min-height: 100vh;
+}
+
+.audio {
+  position: absolute;
+  top: 96%;
+  bottom: auto;
+  right: auto;
+  left: 1.5%;
+  height: 30px;
+}
+
+.form {
+  background-color: floralwhite;
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 50px;
+  position: absolute;
+  left: 60%;
+  top: 45%;
+  border-radius: 15px;
+  box-shadow: 0 15px 100px rgb(240, 8, 8);
+  text-align: center;
+}
+
+.form_titulo {
+  background: linear-gradient(to left, #dd1818, #000000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.form_parrafo {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.form_link {
+  font-weight: 400;
+  color: black;
+}
+
+.form_contenido {
+  margin-top: 15px;
+}
+
+.form_input {
+  width: 100%;
+  background: none;
+  color: grey;
+  font-size: 20px;
+  padding: 5px 5px;
+  border: none;
+  border-bottom: 1px solid;
+  font-family: "Macondo", cursive;
+  text-align: center;
+}
+
+.form_label {
+  color: grey;
+  cursor: pointer;
+}
+
+.form_submit {
+  width: 250px;
+  font-family: "Macondo", cursive;
+  background: linear-gradient(to left, #dd1818, #000000);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 10px;
+}
